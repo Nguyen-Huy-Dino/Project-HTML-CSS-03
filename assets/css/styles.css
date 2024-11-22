@@ -284,8 +284,8 @@ a {
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 }
 
-.service-item:hover .service-item__icon-wrap{
-    background-color: #2E80CE;
+.service-item:hover .service-item__icon-wrap {
+    background-color: #2e80ce;
     color: #fff;
 }
 
@@ -324,4 +324,59 @@ a {
 
 .service__list {
     margin-bottom: 55px;
+}
+
+/* ------------------------------------------------------------------Work------------------------------------------------------------------- */
+
+.work {
+    background: #f6fbff;
+    padding: 100px 0px;
+}
+
+.work__desc {
+    width: 468px;
+}
+
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-top: 86px;
+}
+
+.work-item {
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+    padding: 44px;
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    transform: translateY(-16px);
+    border-color: var(--primary-color);
+}
+
+.work-item__heading {
+    margin-top: 20px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38462;
+}
+
+.work-item__desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 28px;
+}
+
+.work-item__more {
+    display: inline-block;
+    margin-top: 18px;
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
 }
