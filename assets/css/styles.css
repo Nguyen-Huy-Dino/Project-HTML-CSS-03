@@ -380,3 +380,46 @@ a {
     font-weight: 400;
     line-height: 1.75;
 }
+
+/* ------------------------------------------------------------------Work------------------------------------------------------------------- */
+
+.feature {
+    margin-top: 85px;
+    padding: 85px 0px;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding: 0px 58px 121px 0px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    right: 0;
+    bottom: 0;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__cta {
+    margin-top: 38px;
+}
